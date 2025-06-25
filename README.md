@@ -37,6 +37,10 @@ A beautiful, modern, and responsive calculator web app built using **HTML**, **C
 
 ---
 
+## 📌 Live Demo
+
+🔗 [View Live on GitHub Pages](https://your-username.github.io/CodeAlpha_ImageGallery)
+
 ## 🚀 Getting Started
 
 ### Clone the repository:
@@ -44,8 +48,5 @@ A beautiful, modern, and responsive calculator web app built using **HTML**, **C
 git clone https://github.com/Tejashwini-SB/CodeAlpha-Calculator.git
 cd CodeAlpha-Calculator
 --
-## 📌 Live Demo
-
-🔗 [View Live on GitHub Pages](https://your-username.github.io/CodeAlpha_ImageGallery)
 
 
