@@ -1,0 +1,132 @@
+header {
+  text-align: center;
+  padding: 20px;
+  color: rgb(2, 2, 2);
+  text-shadow: 1px 1px 3px rgb(11, 0, 0);
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f0f0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30') no-repeat center center/cover;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  flex-direction: row; /* changed from column to row */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px; /* adds space between calculator and history */
+}
+
+.calculator {
+  width: 400px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+  background: #222;
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+  padding: 20px;
+  height: 60px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 20px;
+  border: none;
+  background: #f4f4f4;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #e0e0e0;
+}
+
+.history-panel {
+  margin-top: 0px;
+  width: 280px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.history-panel h3 {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+.history-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.history-panel li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* Dark Mode */
+
+body.dark header {
+  color: #ffffff;
+  text-shadow: 1px 1px 4px #000000;
+}
+
+body.dark {
+  background: #121212;
+}
+
+body.dark .calculator,
+body.dark .history-panel {
+  background: #1e1e1e;
+  color: white;
+}
+
+body.dark .display {
+  background: #413e3e;
+  color: rgb(246, 242, 7);
+}
+
+body.dark button {
+  background: #2a2a2a;
+  color: #eee;
+}
+
+body.dark button:hover {
+  background: #444;
+}
+
