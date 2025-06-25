@@ -4,8 +4,10 @@ A modern, responsive, and aesthetic calculator with history tracking and dark mo
 
 A beautiful, modern, and responsive calculator web app built using **HTML**, **CSS**, and **JavaScript**, featuring **dark/light mode toggle**, **history tracking**, and support for advanced mathematical operations like power, brackets, and percentages.
 
-![Aesthetic Calculator - Light Mode](./assets/light-mode-preview.png)
-![Aesthetic Calculator - Dark Mode](./assets/dark-mode-preview.png)
+![image](https://github.com/user-attachments/assets/1cda1be8-1446-4014-81e1-bfcac2038e61)
+
+![image](https://github.com/user-attachments/assets/cbed8e64-5441-4665-a3e5-cfdc515ef097)
+
 
 ---
 
