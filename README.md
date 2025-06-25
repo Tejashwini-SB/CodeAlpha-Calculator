@@ -41,9 +41,10 @@ A beautiful, modern, and responsive calculator web app built using **HTML**, **C
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/CodeAlpha_AestheticCalculator.git
-cd CodeAlpha_AestheticCalculator
+git clone https://github.com/Tejashwini-SB/CodeAlpha-Calculator.git
+cd CodeAlpha-Calculator
 
-**##Website Link**
+
+**Website Link**
 https://tejashwini-sb.github.io/CodeAlpha-Calculator/
 
